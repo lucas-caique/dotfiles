@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pkill xcape && echo Killed old xcape processes...
+
+xmodmap ${HOME}/.xmodmap.conf
+xcape
